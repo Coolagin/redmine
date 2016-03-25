@@ -14,7 +14,15 @@ gem "protected_attributes"
 gem "actionpack-action_caching"
 gem "actionpack-xml_parser"
 gem "roadie-rails"
+
+# Use unicorn as the app server
 gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
+gem 'capistrano'#, '~> 1.1.3'
+gem 'capistrano-rails', '~> 1.1.3'
+gem 'capistrano-rvm'
 
 # Request at least nokogiri 1.6.7.2 because of security advisories
 gem "nokogiri", ">= 1.6.7.2"
