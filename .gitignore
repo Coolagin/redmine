@@ -41,5 +41,4 @@
 /config/deploy/production.rb
 /config/deploy/staging.rb
 /Gemfile.local
-/Gemfile.lock
 
